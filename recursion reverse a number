@@ -1,0 +1,7 @@
+def jai(n1):
+    if n1<9:
+        return str(n1)
+    else:
+        result =str(n1%10)
+        return result+jai(n1//10)
+jai(233)
